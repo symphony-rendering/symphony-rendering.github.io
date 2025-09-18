@@ -1,2 +1,41 @@
-<!doctype html><meta charset="utf-8">
-<title>Symphony Rendering: MIDI and Composer-Conditioned Auto Orchestration with Flow-Matching Transformers</title>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Symphony Rendering: MIDI & Composer-Conditioned Orchestration with Flow-Matching Transformers</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <style>
+    body{margin:0;font:16px/1.6 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    .wrap{max-width:880px;margin:0 auto;padding:28px 18px}
+    h1{font-size:28px;line-height:1.25;margin:.2em 0 .6em}
+    .btn{display:inline-block;padding:8px 12px;border:1px solid #ddd;border-radius:10px;text-decoration:none;color:#0366d6}
+    section{margin-top:22px}
+    h2{font-size:18px;margin:.2em 0 .6em}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Symphony Rendering: MIDI &amp; Composer-Conditioned Auto Orchestration with Flow-Matching Transformers</h1>
+
+    <p>
+      <a class="btn" href="https://github.com/shwj114514/symphony-rendering" target="_blank" rel="noopener">Code</a>
+    </p>
+
+    <section id="abstract">
+      <h2>Abstract</h2>
+      <p>
+        We introduce <em>Symphony Rendering</em>, the task of transforming a melody input
+        (MIDI or piano solo) into high-fidelity symphonic audio under explicit composer conditioning.
+        Unlike text-to-music generation, the input and output are tightly time-aligned: pitch and rhythm
+        must be preserved while instrumentation, articulation, and timbre are rendered by the model.
+        We present a flow-matching transformer that conditions on frame-level musical controls and a
+        composer embedding, enabling a single melody to be realized in styles such as “Mahler,” “Beethoven,”
+        or “Tchaikovsky” without retraining. The system unifies orchestration and timbral rendering and is
+        designed to scale with additional composers and control signals. Audio demonstrations and reproducible
+        code are provided on this page.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
