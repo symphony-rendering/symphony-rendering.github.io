@@ -163,7 +163,7 @@
     <!-- DEMOS -->
     <section id="demos" class="container my-5">
       <h3 class="section-title">Audio Demos</h3>
-      <p class="subtitle">Hover card = input condition; right column = rendered orchestral audio. Replace placeholders with actual files.</p>
+      <!-- <p class="subtitle">Hover card = input condition; right column = rendered orchestral audio. Replace placeholders with actual files.</p> -->
 
       <div class="row g-4">
         <!-- Demo 1 -->
@@ -174,11 +174,11 @@
             <div class="row g-2">
               <div class="col-12 col-lg-6">
                 <small class="d-block">Condition (MIDI → piano‑roll render)</small>
-                <audio controls preload="none" src="assets/demos/demoA_cond.mp3" class="w-100"></audio>
+                <audio controls preload="none" src="assets/demoA/spectrogramdiffusion_beethoven_piano_concerto_19_1_(c)nemitz.wav" class="w-100"></audio>
               </div>
               <div class="col-12 col-lg-6">
                 <small class="d-block">Ours (Composer: Beethoven)</small>
-                <audio controls preload="none" src="assets/demos/demoA_beethoven.mp3" class="w-100"></audio>
+                <audio controls preload="none" src="assets/demoA/beethoven_piano_concerto_19_1_(c)nemitz.wav" class="w-100"></audio>
               </div>
             </div>
           </div>
@@ -192,11 +192,11 @@
             <div class="row g-2">
               <div class="col-12 col-lg-6">
                 <small class="d-block">Condition (piano reduction → AMT)</small>
-                <audio controls preload="none" src="assets/demos/demoB_cond.mp3" class="w-100"></audio>
+                <audio controls preload="none" src="assets/demoB/real.wav" class="w-100"></audio>
               </div>
               <div class="col-12 col-lg-6">
                 <small class="d-block">Ours (Composer: Mahler)</small>
-                <audio controls preload="none" src="assets/demos/demoB_mahler.mp3" class="w-100"></audio>
+                <audio controls preload="none" src="assets/demoB/贝多芬（Ludwig van Beethoven）.wav" class="w-100"></audio>
               </div>
             </div>
           </div>
@@ -206,15 +206,19 @@
         <div class="col-md-6">
           <div class="audio-card">
             <h6>Demo C — Style Swap: Same melody in different composers</h6>
-            <p class="subtitle">Condition: Same 16‑bar theme</p>
+
+        <div class="d-flex align-items-center gap-2 flex-wrap mb-2">
+          <p class="subtitle mb-0">Condition:Real piano performance </p>
+          <audio controls preload="none" src="assets/demoC/real.wav" style="max-width:260px"></audio>
+        </div>
             <div class="row g-2">
               <div class="col-12 col-lg-6">
-                <small class="d-block">Tchaikovsky</small>
-                <audio controls preload="none" src="assets/demos/demoC_tchaikovsky.mp3" class="w-100"></audio>
+                <small class="d-block">Johann Sebastian Bach</small>
+                <audio controls preload="none" src="assets//demoC/巴赫（Johann Sebastian Bach）.wav" class="w-100"></audio>
               </div>
               <div class="col-12 col-lg-6">
-                <small class="d-block">Shostakovich</small>
-                <audio controls preload="none" src="assets/demos/demoC_shostakovich.mp3" class="w-100"></audio>
+                <small class="d-block">Sergei Rachmaninoff</small>
+                <audio controls preload="none" src="assets/demoC/巴赫（Johann Sebastian Bach）.wav" class="w-100"></audio>
               </div>
             </div>
           </div>
@@ -228,11 +232,11 @@
             <div class="row g-2">
               <div class="col-12 col-lg-6">
                 <small class="d-block">Condition (MIDI)</small>
-                <audio controls preload="none" src="assets/demos/demoD_cond.mp3" class="w-100"></audio>
+                <audio controls preload="none" src="assets/demoD/haydn_symphony_088_3_(c)edwards_gen.wav" class="w-100"></audio>
               </div>
               <div class="col-12 col-lg-6">
                 <small class="d-block">Ours (Composer: Rachmaninoff)</small>
-                <audio controls preload="none" src="assets/demos/demoD_rach.mp3" class="w-100"></audio>
+                <audio controls preload="none" src="assets/demoD/haydn_symphony_088_3_(c)edwards.wav" class="w-100"></audio>
               </div>
             </div>
           </div>
